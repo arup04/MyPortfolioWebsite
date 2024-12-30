@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./index.css">
+  <!-- Add Font Awesome CDN link in your <head> tag -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div id="top_container">
+      <div class="left">
+        <p>Arup's <span >Portfolio</span></p>
+      </div>
+
+      <div class="right">
+      <nav>
+      <a href="#first">Home</a>
+      <a href="#second">About</a>
+      <a href="#third">Skills</a>
+      <a href="#fourth">Projects</a>
+      <a href="#fifth">Contact</a>
+      </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <div id="first">
+
+      <div class="first1">
+        <h1>Hii, I'm Arup</h1>
+        <h2>a <span>Frontend</span> Developer</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis necessitatibus rem aperiam ab sapiente dolorem iusto soluta quae consequuntur possimus neque consectetur mollitia pariatur eum cum ducimus, dolores accusamus molestias, alias quisquam? Veritatis rem nemo cum explicabo nihil, quidem deleniti.</p>
+
+        <button id="but1" onclick="openLinkedIn()">Hire me</button>
+
+        <div class="prof">
+        <a href="https://www.linkedin.com/in/arup-das-ad04/" target="_blank">
+          <i class="fab fa-linkedin" style="color: #0077b5; font-size: 40px;"></i>
+        </a>
+
+        <a href="https://x.com/arup46606" target="_blank">
+          <i class="fab fa-twitter" style="color: #1DA1F2; font-size: 40px;"></i>
+        </a>
+        
+      </div>
+        
+      </div>
+
+      <div class="imag">
+        <img src="./WhatsApp Image 2024-12-28 at 15.08.04_77199e8c.jpg">
+      </div>
+
+      
+      
+    </div>
+
+    <div id="second">
+
+      <div class="imag1">
+        <img src="./WhatsApp Image 2024-12-28 at 15.08.48_68097bee.jpg" alt="">
+      </div>
+
+      
+
+    </div>
+
+    <div id="third">Skills</div>
+    <div id="fourth">
+      <p>Projects Coming Soon!!!</p>
+    </div>
+
+    <div id="fifth">
+      <div class="fifth1">
+        <p>Contact <span style="color: rgb(247, 132, 10);">me !</span></p>
+      </div>      
+
+      <section id="contact">
+        <p>If you have any questions, opportunities, or just want to say hi, feel free to drop me a message!</p>
+        <form action="https://formspree.io/f/xannorja" method="POST">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write your message here" rows="5" required></textarea>
+      
+          <button class="but2" type="submit">Send Message</button>
+        </form>
+      </section>
+      
+
+      
+
+      <!-- <form>
+        <div class="form">
+          
+        <div class="FIRST">
+          <input type="text" placeholder="Full Name">
+          <input type="text" placeholder="Email Adress">
+        </div>
+        
+        <div class="SECOND">
+          <input type="text" placeholder="Phone Number">
+          <input type="text" placeholder="Email Subject">
+        </div>
+
+        <div class="long">
+          <input id="lon" type="text" placeholder="Your Message">
+        </div>
+      </div>
+        
+      </form>  -->
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="foot">
+      <p>&copy Arup's Portfolio. All rights are reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>

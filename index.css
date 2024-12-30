@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+#top_container{
+  height: 12vh;
+  /* background: linear-gradient(90deg, #fff, #f48115); */
+  background-color: #f7f8fc;
+  /* background-color: #ffffffef; */
+
+  /* background-color: white; */
+  display: flex;  /* #fdb169 */
+  justify-content: space-around;
+  align-items: center;
+  border: 2px;
+  box-shadow: 0 5px 12px 0 #9d9d9d33;
+  position: fixed;
+  width: 100%;
+}
+
+h1{
+  font-size: 70px;
+  margin-top: 5rem;
+}
+
+h2{
+  font-size: 70px;
+}
+
+span{
+  color: #ff7b00;
+}
+
+#but1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8em;
+  height: 3em;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  background-color: rgb(244, 140, 5);
+  border-radius: 10px;
+  border: none;
+}
+
+#but1:hover{
+  background-color: rgb(252, 133, 5);
+  cursor: pointer;
+}
+
+.first1{
+  margin-top: 7em;
+}
+.first1 p{
+  margin-top: 2em;
+  max-width: 700px;
+  font-size: 20px;
+  word-wrap: break-word;
+  margin-bottom: 2.5em;
+}
+
+.first1 a{
+  margin-top: 5em;
+}
+
+.prof{
+  display: flex;
+}
+
+.prof a{
+  margin-right: 5em;
+}
+.left {
+  /* color: white; */
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.right a{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 25px;
+}
+
+a:hover{
+  color: rgb(255, 106, 0);
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 5px;
+}
+
+#first{
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.first1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imag{
+  display: flex;
+  align-items: center;
+}
+
+img{
+  border: 1px black solid;
+  margin-top: 4rem;
+  border-radius: 100%;
+  height: 500px;
+  width: 450px;
+  object-fit: cover;
+}
+
+#second{
+  height: 100vh;
+  background: linear-gradient(90deg, #fff, #f48217);
+}
+
+#third{
+  height: 100vh;
+}
+
+#fourth{
+  height: 100vh;
+  background: linear-gradient(90deg, #fff, #f48217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fourth p{
+  font-size: larger;
+  font-size: 50px;
+}
+
+#fifth{
+  MIN-height: 70vh;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.fifth1{
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em;
+}
+
+.para{
+  display: flex;
+  justify-content: center;
+}
+
+.para p{
+  font-size: 40px;
+}
+
+.imag1{
+  margin-left: 6em;
+  height: 100vh;
+  display: flex; 
+  align-items:center;
+}
+
+#contact {
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#contact h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#contact p {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact label {
+  margin-top: 10px;
+  text-align: left;
+}
+
+#contact input,
+#contact textarea {
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  margin-top: 20px;
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #0056b3;
+}
+
+/* Target the placeholder of the name input */
+#name::placeholder {
+  font-size: 20px;
+}
+
+#email::placeholder {
+  font-size: 20px;
+}
+
+#name:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+
+textarea::placeholder {
+  font-size: 20px; /* Adjust the size as needed */
+  color: #888; /* Optional: Change placeholder color */ /* Optional: Change font style */
+}
+
+.but2{
+  height: 4em;
+  font-size: 0.6em;
+}
+
+.FIRST{
+  display: flex;
+  margin-bottom: 5px;
+  
+}
+
+.SECOND{
+  margin-top: 1.5em;
+  display: flex;
+}
+
+input{
+  margin-left: 30px;
+  width: 300px;
+  height: 60px;
+  text-align: center;
+}
+
+#lon{
+  margin-top: 2em;
+  height: 300px;
+  width: 634px;
+}
+
+.foot{
+  height: 11vh;
+  background-color: #5a5656;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
